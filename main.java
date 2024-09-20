@@ -3,8 +3,10 @@ import javax.swing.*;
 import java.util.Random;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import javax.swing.ImageIcon;
 
 public class Table extends JPanel implements ActionListener {
+    private JButton shuffleButton;
     static public void main(String[] args) {
         Table t = new Table();
         JFrame f = new JFrame();
