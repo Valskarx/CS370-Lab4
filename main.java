@@ -5,8 +5,6 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
 public class Table extends JPanel implements ActionListener {
-    private JButton shuffleButton;
-
     static public void main(String[] args) {
         Table t = new Table();
         JFrame f = new JFrame();
